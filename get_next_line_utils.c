@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yviavant <yviavant@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yohannviavant <yohannviavant@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/19 16:03:11 by yviavant          #+#    #+#             */
-/*   Updated: 2019/11/21 10:09:01 by yviavant         ###   ########.fr       */
+/*   Updated: 2019/11/22 08:21:41 by yohannviava      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ char	*ft_strjoin(char *s1, char *s2)
 		j++;
 	}
 	str[i] = '\0';
+	//free(s2);
 	free(s1);
 	return (str);
 }
@@ -87,7 +88,6 @@ char	*ft_strdup(char *s1)
 		i++;
 	}
 	str[i] = '\0';
-	//free(s1);
 	return (str);
 }
 
@@ -114,7 +114,5 @@ char	*ft_substr(char *s, int start, size_t len)
 		i++;
 	}
 	str[i] = '\0';
-	//if (s)
-		//free(s);
 	return (str);
 }

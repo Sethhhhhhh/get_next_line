@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yviavant <yviavant@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yohannviavant <yohannviavant@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/19 16:03:09 by yviavant          #+#    #+#             */
-/*   Updated: 2019/11/21 10:10:04 by yviavant         ###   ########.fr       */
+/*   Updated: 2019/11/21 22:26:13 by yohannviava      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
